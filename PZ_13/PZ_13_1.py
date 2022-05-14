@@ -11,5 +11,5 @@ l = math.floor(len(arr)/2)
 
 arr2 = [arr[x] for x in range(l)]
 
-arr3 = [n for n in arr2 if n >= 0]
+arr3 = [n for n in arr2 if n > 0]
 print('Количество положительных элементов в первой половине: ',  len(arr3))
